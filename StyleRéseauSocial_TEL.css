@@ -1,0 +1,87 @@
+@media screen and (max-width:420px)
+{
+    header
+    {
+        width: 400px;
+        height: 80px;
+    }
+    nav
+    {
+        position: relative;
+        top: 50px;
+        left: 0;
+        width: 400px;
+    }
+    nav a:first-of-type
+    {
+        margin: 0;
+    }
+    .logo
+    {
+        width: 380px;
+        margin: 0 18 42;
+        transform: translateX(30%);
+        align-items: center;
+    }
+    .menu
+    {
+        width: 100%;
+        position: relative;
+        top: 50px;
+        padding: 0;
+    }
+    .Groupes
+    {
+        position: absolute;
+        left: 250px;
+        top: 10px;
+    }
+    .Amis
+    {
+        position: absolute;
+        left: 250px;
+        top: 45px;   
+    }
+    .post1
+    {
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 55px;
+    }
+    .MON_image,.cllassment
+    {
+        width: 100%;
+    }
+    .post2
+    {
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 55px;
+    }
+    .post3
+    {
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 55px;
+    }
+    .Ajouter_amis
+    {
+        position: absolute;
+        top: 950px;
+    }
+    .out,.out img,.out h3,.out p
+    {
+        width: 0;
+        height: 0;
+        font-size: 0px;
+    }
+    aside
+    {
+        position: relative;
+        left:-0;
+    }
+
+}

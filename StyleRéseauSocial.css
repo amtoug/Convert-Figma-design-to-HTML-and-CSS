@@ -1,0 +1,223 @@
+body
+{
+background-color:  #F5F5F5;
+margin: 0;
+}
+header
+{
+    position: fixed;
+    width: 97%;
+    height: 54px;
+    background-color: #2C3E50;
+    padding-right: 46px;
+    z-index: 2;
+}
+.logo
+{
+    font-size: 24px;
+    font-weight: 600;
+    width: 180px;
+    position: absolute;
+    top: 10px;
+    margin-left: 51px;
+    color: #fff;
+}
+nav
+{
+    width: 30%;
+    position: absolute;
+    top: 20px;
+    left: 65%;
+    font-size: 16px
+}
+nav a
+{
+    margin-left: 46px;
+}
+article
+{
+    position: relative;
+    top: 40px;
+    z-index: 1;
+}
+a
+{
+    text-decoration:none;
+    color: rgba(255,255,255,0.67);
+}
+a:focus
+{
+    color: #fff;
+}
+.fil 
+{
+    width: 200px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.menu 
+{
+    padding: 21px 51px;
+    font-family: sans-serif;
+}
+.menu a
+{
+    text-decoration: none;
+    color: grey;
+}
+.menu img
+{
+    margin: 0 20px 0 10px;
+}
+.fil a
+{
+    color: black;
+    font-weight: bold;
+}
+.fil,.Messages,.Evènements,.Groupes
+{
+    margin-bottom: 15px;
+}
+a:hover
+{
+color: tomato
+}
+.post1
+{
+    width: 500px;
+    background-color: #fff;
+    height: auto;
+    position: absolute;
+    top:10px;
+    left: 400px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.profile
+{
+    border-radius: 50%;
+    margin: 10px 0 0 10px;
+}
+article h3,.out h3
+{
+    display: inline;
+    margin: 10px;
+    position: relative;
+    top: -25px;
+}
+h3+p
+{
+    color: rgba(0, 0, 0, 0.38);
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    font-size: 14px;
+}
+.text
+{
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cllassment
+{
+    width: 500px;
+    height: 30px;
+    background-color: #fbfbfb;
+    padding: 10px 0px 0px 0px;
+    justify-content: center;
+}
+.nb_like
+{
+    color: #BDBDBD;
+}
+.nb_commontaire
+{
+    float: right;
+    color: #BDBDBD;
+    justify-content: center;
+    margin: 0 10px;
+}
+.nb_commontaire img
+{
+    position: relative;
+    top: 5px;
+}
+.post2,.post3
+{
+    width: 500px;
+    background-color: #fff;
+    height: auto;
+    position: relative;
+    top: 400px;
+    left: 400px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.out
+{
+    background-color: #fff;
+    border-radius: 5px;
+}
+aside
+{
+    position: relative;
+    top:-850px;
+    left: 1100px;
+    width: 400px;
+}
+.aside_text
+{
+    padding: 0px 10px 20px 10px;
+}
+h2
+{
+margin-bottom: 0px;
+}
+aside h3
+{
+    display: inline;
+    position: relative;
+    top: -60px;
+    margin: 10px;
+}
+h3+span
+{
+    position: relative;
+    top: -40px;
+    left: -140px;
+    color: rgba(0, 0, 0, 0.65);
+}
+.ajouter
+{
+  display: inline;
+  position: relative;  
+  left: -250px;
+}
+aside #ajouter
+{
+    position: relative;
+    top: -20px;
+    left: 105px;
+    width: 100px;
+}
+@media screen and (max-width:1430px)
+{
+    header
+    {
+      width: 1500px;  
+    }
+    nav
+    {
+        width: 500px;
+        position: fixed;
+        top: 20px;
+        left:300px;
+    }
+    .logo
+    {
+        margin-left: 30px;
+    }  
+}
